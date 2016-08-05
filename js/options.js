@@ -10,7 +10,4 @@ $(document).ready(function () {
     $('div#exit').click(function () {
         $('.accordeon').toggle(false);
     });
-
-    //add_rest
-    //$('input[name=date_of_rest]').mask('9999-99-99',{placeholder:"гггг-мм-дд"});
 });

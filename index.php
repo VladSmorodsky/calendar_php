@@ -76,7 +76,6 @@ else
 
 
 </div>
-<!--div id="id01"></div-->
 <script src="js/jquery-2.2.3.js"></script>
 <script src="js/main.js"></script>
 <script src="js/options.js"></script>

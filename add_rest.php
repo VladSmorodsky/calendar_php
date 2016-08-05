@@ -11,7 +11,6 @@
     <div id="form_caption">
         <h2>Введите дату важного события</h2>
     </div>
-    <!--input type="text" name="date_of_rest"-->
     <select name="rest_day" class="form_add">
         <?php
 
@@ -83,8 +82,6 @@
         $date = $_POST['rest_year'].'-'.$months_name[$_POST['rest_month']].'-'.$_POST['rest_day'];
         $capt = $_POST['rest_caption'];
         $sql_query = "INSERT INTO `rest` VALUES(null,'".$date."','".$capt."')";
-        
-        //$insert_day = $conn->query($sql_query) or die('Ошибка отправки');
 
         if($conn->query($sql_query) === TRUE){
             echo "<div id='success'><h3>Ваши данные успешно занесены</h3><a href='index.php'>Вернуться к просмотру календаря</a></div>";

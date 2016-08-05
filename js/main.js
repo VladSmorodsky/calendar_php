@@ -21,7 +21,6 @@ window.onload = function () {
             for(el = 0; el < t.length; el++){
                 if(t[el].indexOf('0') == 0){
                     t[el] = t[el].substr(1);
-                    //alert(t[el]);
                 }
             }
 
