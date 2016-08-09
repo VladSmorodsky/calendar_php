@@ -129,16 +129,19 @@ div#exit{
 }
 
 i{
-
     z-index: 5;
     color: #f2f2f2;
     padding: 3px;
+}
+
+i:hover{
     -webkit-animation-name: rotate; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
     animation-name: rotate;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    cursor: pointer;
 }
 @keyframes rotate {
     0%   {-webkit-transform: rotate(90deg); transform: rotate(90deg);}

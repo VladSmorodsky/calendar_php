@@ -36,7 +36,7 @@
 				</dd>
 			</dl>
 		</div>
-		<div id="cog"><i class="fa fa-cog fa-3x"></i></div>
+		<div id="cog"><i class="fa fa-cog fa-3x" title="Действие"></i></div>
 
 </div>
 
