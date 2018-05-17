@@ -49,7 +49,7 @@ else
 ?>
 <h1 id="cur_year"><?=$entered_year?></h1>
 <div class="container">
-<?
+<?php
 	$months = Array(
 		0 => 'Январь',
 		1 => 'Февраль',
@@ -67,11 +67,11 @@ else
 	for ($month = 1; $month <= 12; $month++) { ?>
 		<div class="b-calendar b-calendar--many">
 			<div class="b-calendar__title"><span class="b-calendar__month"><?= $months[$month-1] ?></span> <span class="b-calendar__year"><?=$entered_year?></span></div>
-			<?
+			<?php
 				echo draw_calendar($month,$entered_year);
 			?>
 		</div>
-	<? }
+	<?php }
 ?>
 
 

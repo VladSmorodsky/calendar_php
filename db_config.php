@@ -1,6 +1,6 @@
 <?php
 
-$conn = new mysqli("localhost", "root", "1234", "rest_day");
+$conn = new mysqli("localhost", "root", "storm1382", "Workers");
 
 mysqli_query($conn,"SET NAMES 'utf8'");
 mysqli_query($conn,"SET CHARACTER SET 'utf8'");
